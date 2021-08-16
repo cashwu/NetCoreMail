@@ -134,7 +134,11 @@ namespace testSmtp.Controllers
 
                 Console.WriteLine($"expiration time - {expirationTime}");
 
-                if (expirationTime < DateTimeOffset.UtcNow)
+                var utcNow = DateTimeOffset.UtcNow;
+                
+                Console.WriteLine($"utc now - {utcNow}");
+
+                if (expirationTime < utcNow)
                 {
                     return false;
                 }
