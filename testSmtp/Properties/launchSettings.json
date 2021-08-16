@@ -1,0 +1,14 @@
+﻿{
+  "profiles": {
+    "testSmtp": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": true,
+      "launchUrl": "",
+      "applicationUrl": "https://localhost:44353;http://localhost:14883",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
